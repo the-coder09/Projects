@@ -1,0 +1,58 @@
+body{
+    background: url("Wallpaper.jpg");
+    text-align: center;
+    background-size: 100vw;
+   
+}
+
+form{
+
+    margin: 100px;
+
+
+
+border-radius: 15px;
+ width:fit-content;
+ font-size: 1.2rem;
+ box-shadow: 10px 10px 20px rgb(0, 0, 0);
+    padding: 20px ;
+    background-color: rgba(17, 17, 17, 0.514);
+
+}
+h1{
+    color: rgb(251, 255, 9);
+    font-family: sans-serif;
+}
+label{
+    color: white;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+}
+span{
+    color: white;
+    font-family: sans-serif;
+    font-size: 1.5rem;  
+}
+p{
+    color: white;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+}
+input[type=submit]{
+    background-color: aqua;
+  width: 300px;
+  height: 40px;
+  border-radius: 10px;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+}
+input{
+    height: 20px;
+}
+select{
+    height: 30px;
+   
+}

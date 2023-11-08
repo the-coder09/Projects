@@ -1,0 +1,47 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+justify-content: center;
+align-items: center;
+
+
+}
+body {
+    width: 100%;
+    
+
+    margin: 0;
+    
+    font-size: 15px;
+background-color: rgb(0, 162, 255);
+  }
+.submit{
+  text-align: center;
+  
+}
+
+input{
+
+    display: inline;
+}
+
+.names{
+align-items: center;
+}
+label{
+    font-size: 1.5rem;
+    color: rgb(253, 253, 255);
+}
+input[type=submit]{
+    width: 50%;
+    color: white;
+   background-color: rgb(5, 143, 255);
+    box-sizing: border-box;
+    border: 2px solid rgb(8, 33, 255);
+    }
+
+    p{
+        font-size: 1.2rem;
+        color: blue;
+    }

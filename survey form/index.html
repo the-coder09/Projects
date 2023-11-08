@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="form">
+       
+        <form>
+            <h1>
+                Survey Form
+            </h1>
+            <div class="form1">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" placeholder="Enter your Name">
+                <br> <br>
+                <label for="mail">E-mail</label>
+                <input type="email" name="email" id="mail" placeholder="Enter your E-mail">
+                <br> <br>
+                <label for="dp">Age</label>
+                <input type="number" name="datepicker" id="dp" placeholder="Enter your Age" >
+                <br> <br>
+            </div>
+            <div class="picker">
+                <label for="sel">Which option best describes you?</label>
+                <br>
+                <select name="selection" id="Sel">
+                    <option value="student">student</option>
+                    <option value="Intern">Intern</option>
+                    <option value="Professional">Professional</option>
+                    <option value="Other">Other</option>
+
+                </select>
+                <div class="rad">
+                    <br>
+                    <label for="">your friend know about development? </label>
+
+                    <div class="radio">
+
+
+                        <input type="radio" name="radio" id="rad1">
+                        <label for="radi">yes</label>
+
+                        <input type="radio" name="radio" id="rad2">
+                        <label for="rad2">No</label>
+
+                        <input type="radio" name="radio" id="rad3">
+                        <label for="rad3">Maybe</label>
+                    </div>
+                </div>
+            </div>
+            <div class="lang">
+                <p>Languages and Frameworks known(Check all that apply)</p>
+
+                <label for="chk1">C</label>
+                <input type="checkbox" name="check" id="chk1">
+                <br>
+                <label for="chk2">C++</label>
+                <input type="checkbox" name="inp2" id="chk2">
+                <br>
+                <label for="chk3">C#</label>
+                <input type="checkbox" name="inp3" id="chk3">
+                <br>
+                <label for="chk4">JAVA</label>
+                <input type="checkbox" name="inp4" id="chk4">
+                <br>
+                <label for="chk5">JAVA Script</label>
+                <input type="checkbox" name="inp5" id="chk5">
+                <br>
+                <label for="chk6">Angular</label>
+                <input type="checkbox" name="inp6" id="chk6">
+                <br>
+                <label for="chk7">React</label>
+                <input type="checkbox" name="inp7" id="chk7">
+                <br>
+                <label for="chk8">Django</label>
+                <input type="checkbox" name="inp8" id="chk8">
+                <br>
+                <label for="chk9">Spring</label>
+                <input type="checkbox" name="inp9" id="chk9">
+
+
+                <br>
+            </div>
+            <div class="ccomment">
+                <br>
+                <span id="sugg">Any Comment or Suggestion</span>
+                <br>
+                <textarea name="comment" id="sugg" cols="20" rows="3" placeholder="Enter your Commment Here"></textarea>
+            </div>
+            <div class="butt">
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

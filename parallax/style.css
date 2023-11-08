@@ -1,0 +1,42 @@
+.first{
+    text-align: center;
+    font-style: italic;
+    font-size: 2rem;
+    width: 100%;
+    height: 420px;
+padding-top: 140px;
+
+
+
+
+
+}
+.second{
+ color: aqua;
+background-color: rgba(0, 0, 0, 0.445);
+padding: 5px;
+box-sizing: border-box;
+box-shadow: 5px 5px 10px 10px black;
+border-radius: 6px ;
+}
+.firstpara{
+    background: url(wp2449906-shine-wallpapers.png);
+    background-attachment: fixed;
+    background-position: -300px;
+}
+.secondpara{
+    background: url(wp2449898-shine-wallpapers.jpg);
+    background-attachment: fixed;
+    background-position: -300px;
+}
+.thirdpara{
+    background: url(wp2449887-shine-wallpapers.jpg);
+    background-attachment: fixed;
+    background-position: -300px;
+}
+h2:hover{
+    transform: scale(1.1);
+    transition: all 4s 0s ease-in-out ;
+  
+    
+}

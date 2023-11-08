@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <header>
+    <h1>
+        Responsive Registration Form
+    </h1>
+    </header>
+    <main>
+    <Form>
+        <div class="names">
+<fieldset id="name" >
+    <label for="txt">First Name</label>
+    <input type="text" name="Name" id="txt"  size="23">
+    <br><br>
+    <label for="ltxt">Last Name</label>
+    <input type="text" name="lname" id="ltxt" size="23">
+    <br><br>
+    <label for="mail"> Email  :-   </label>
+    <input type="email" name="email" id="mail" size="28">
+    <br><br>
+    <label for="pass">Password</label>
+    <input type="password" name="password" id="Pass" size="24">
+<br><br>
+</fieldset>
+</div>
+<div class="Genders">
+<fieldset id="gender">
+    <p>Select Gender</p>
+    <input type="radio" name="rad" id="rad1">
+    <label for="rad1">male</label>
+    <input type="radio" name="rad" id="rad2">
+    <label for="rad2">female</label>
+    <input type="radio" name="rad" id="rad3">
+    <label for="rad3">Other</label>
+
+</fieldset>
+</div>
+<div class="pdetails">
+<fieldset>
+    <label for="upload">Upload profile photo</label>
+    <input type="file" name="upload" id="upload">
+    <br>
+    <br>
+<label for="age">Age:- </label>
+    <input type="number" name="Age" id="age" min="18" max="70">
+    <br> <br>
+    <label for="dob">Date of Birth</label>
+    <input type="date" name="DOB" id="dob">
+    <br> <br>
+    <input type="checkbox" name="term and condition" id="terms">
+    <label for="terms">I accept <a href="https://policies.google.com/terms?hl=en">terms and condition</a> </label>
+ 
+</fieldset>
+</div>
+<fieldset>
+    <div class="submit">
+    <input type="submit" value="Registred">
+</div>
+</fieldset>
+    </Form>
+</main>
+</div>
+</body>
+</html>
